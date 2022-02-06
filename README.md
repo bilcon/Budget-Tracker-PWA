@@ -1,99 +1,68 @@
 # 19 Progressive Web Applications (PWA): Budget Tracker
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information at any time is even more important. Having offline functionality is paramount to the success of an application that handles users’ financial information.
+## Licensing:
 
-Your challenge this week is to add functionality to an existing budget tracker application to allow for offline access and functionality. The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should update the total when brought back online. Finally, you’ll deploy the application to Heroku.
+![license](https://img.shields.io/badge/license-MIT-blue)
 
-Before you start, clone the [starter code](https://github.com/coding-boot-camp/symmetrical-bassoon).
+## Table of Contents
 
-> **On the Job:** When web developers are working on a feature request or trying to kill a bug, they rarely have all the information they need to solve the task in front of them. Being a successful developer requires you to combine knowledge that you’ve picked up from different applications you’ve worked on in the past to formulate a solution.
-> 
-> This Challenge will ask you to combine several tasks that you’ve learned over this module and the previous one to add offline functionality to an existing application. We’ve outlined how you can achieve this in the Getting Started section below.
+- [19 Progressive Web Applications (PWA): Budget Tracker](#19-progressive-web-applications-pwa-budget-tracker)
+  - [Licensing:](#licensing)
+  - [Table of Contents](#table-of-contents)
+  - [Description:](#description)
+  - [Installation:](#installation)
+  - [Usage:](#usage)
+  - [License](#license)
+  - [Contribution:](#contribution)
+  - [Testing:](#testing)
+  - [Additional Info:](#additional-info)
 
+## Description:
 
-## User Story
+This app allows a user to track their finances whether they have an internet connection or not. When the user is offline all the transactions are saved through data caching allowing the user to add and subtract funds as normal. When internet connections are reestablished the app will update the database with all the current information that is stored in the data cache. This gives the user complete confidence in using this app on or offline knowing their financial information is always correct and current.
 
-```md
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
-```
+## Installation:
 
-## Acceptance Criteria
+This application is deployed on Heroku so no installation is required. Simply click on the Heroku link below and you can begin to use the app.
 
-```md
-GIVEN a Budget Tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
-```
+## Usage:
 
-## Mock-Up
+You can begin using the app by simply clicking on the Heroku link below and begin entering your data.
 
-The following image shows the web application's appearance and functionality:
+## License
 
-![Challenge Demo](./Assets/19-pwa-homework-demo-01.png)
+MIT License
 
+Copyright (c) 2021 Bill Morris
 
-## Getting Started
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Revisit the following lessons to complete this challenge:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Offline Functionality
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+## Contribution:
 
-You’ll also need to add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+At this time no contributions are being accepted
 
-> **Rewind:** The Food Festival application that you created in this module's lessons did not include an Express.js server, so you used the `webpack-dev-server` npm module to test the service worker with an HTTPS-enabled server.
-> 
-> For this Challenge, however, you aren't using webpack, but you do have an Express.js server provided to you in the starter code. Remember that Chrome DevTools makes it possible to test service workers on localhost in development. Simply click on the Application tab in the tools, then select Service Workers from the left hand navigation.
+## Testing:
 
-> **Important:** You should add both of the files to handle this functionality to the `public/js/` directory of your application.
+Should you want to test this app on your local computer you can click on the GitHub link below and clone the repo to your machine. Once you have installed the dependencies simply enter "node server.js" and the app will run on localhost:3001. The app can be tested with the dev tools open showing the app working by watching the network tab with an internet connection and without an internet connection.
 
-Once you’ve updated the existing budget tracker, it should provide the following functionality:
+## Additional Info:
 
-* The ability to enter deposits offline.
-
-* The ability to enter expenses offline.
-
-* Offline entries should be added to the tracker when the application is brought back online.
-
-### Web Manifest
-
-Because this will be a mobile-first application, you’ll also need to add a web manifest to your application with the app’s metadata to let users’ devices know what they’re installing and how the app should look on the home screen.
-
-This `manifest.json` file for this project will contain the following properties:
-
-* `name`
-
-* `short_name`
-
-* `icons`
-
-* `theme_color`
-
-* `background_color`
-
-* `start_url`
-
-* `display`
-
-> **Important:** In the module project, you used webpack to create the `manifest.json` file. For this application, you’ll need to create it manually and add it to the `public/` directory of your application. You can also review **Module 19: Progressive Web Applications (PWA), Lesson 5: PWA** as a refresher on web manifests.
-
-### Deployment to Heroku Using MongoDB Atlas
-
-Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+- Github: [[bilcon](https://github.com/bilcon/readme-generator)](https://github.com/bilcon/Budget-Tracker-PWA)
+- Email: bilcon@swbell.net
+- Heroku: (TO COME STILL WORKING THIS CONNECTION)
