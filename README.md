@@ -13,7 +13,6 @@
   - [Installation:](#installation)
   - [Usage:](#usage)
   - [License](#license)
-  - [Contribution:](#contribution)
   - [Testing:](#testing)
   - [Additional Info:](#additional-info)
 
@@ -53,10 +52,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Contribution:
-
-At this time no contributions are being accepted
-
 ## Testing:
 
 Should you want to test this app on your local computer you can click on the GitHub link below and clone the repo to your machine. Once you have installed the dependencies simply enter "node server.js" and the app will run on localhost:3001. The app can be tested with the dev tools open showing the app working by watching the network tab with an internet connection and without an internet connection.
@@ -65,4 +60,4 @@ Should you want to test this app on your local computer you can click on the Git
 
 - Github: [[bilcon](https://github.com/bilcon/readme-generator)](https://github.com/bilcon/Budget-Tracker-PWA)
 - Email: bilcon@swbell.net
-- Heroku: (TO COME STILL WORKING THIS CONNECTION)
+- Heroku: (TO COME STILL WORKING ON THIS CONNECTION)
