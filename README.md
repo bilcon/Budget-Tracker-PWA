@@ -58,6 +58,6 @@ Should you want to test this app on your local computer you can click on the Git
 
 ## Additional Info:
 
-- Github: [[bilcon](https://github.com/bilcon/readme-generator)](https://github.com/bilcon/Budget-Tracker-PWA)
+- Github: [[bilcon]](https://github.com/bilcon/Budget-Tracker-PWA)
 - Email: bilcon@swbell.net
 - Heroku: [Heroku Link](https://shielded-dusk-25196.herokuapp.com/)
